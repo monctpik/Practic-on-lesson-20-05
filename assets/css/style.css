@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    /* font-family: 'Indie Flower', cursive; */
+/* font-family: 'Pacifico', cursive; */
+font-family: 'Patrick Hand', cursive;
+    
+}
+body{
+    background-color: hsl(215deg 16% 46%);
+    
+}
+/* a{
+    text-decoration: none;
+} */
+.head-title *{
+    text-align: center;
+    font-size: 30px;
+    margin-top: -5%;
+}
+h2 {
+    margin: -47px auto;
+    color: hsl(249deg 7% 42%);
+    max-width: 600px;
+    position: relative;
+  }
+  
+  h2::before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: hsl(228deg 6% 83%);
+    left: -5px;
+    top: 54%;
+    position: absolute;
+  }
+  
+  h2::after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: hsl(228deg 6% 83%);
+    right: -5px;
+    top: 54%;
+    position: absolute;
+  }
+  .article{
+      text-align: center;
+      white-space: nowrap;
+      color: hsl(240deg 1% 70%);
+      margin-bottom: -10%;
+  }
+  .article-floor{
+      color: white;
+      margin-top: -1%;
+  }
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 400px;
+    min-height: 500px;
+
+    margin: auto;
+    padding: 15px;
+    border: 1px solid hsl(240deg 1% 70%);
+    background-color: hsl(228deg 24% 96%);
+    color:hsl(240deg 1% 70%);
+
+}
+form *{
+    font-size: 16px;
+    padding: 0.5em;
+}
+.form-input{
+    border-radius: 3px solid hsl(240deg 1% 70%);
+}
+.block-user-info{
+    display: flex;
+    justify-content: space-between;
+}
+.firstname{
+   margin-left: -2.4%;
+}
+.lastname{
+   margin-right: -2.4%;
+ }
+.firstname,
+.lastname{
+    flex-basis: 48%;
+    min-width: 160px;
+}
+.btn-register{
+    background-color: hsl(121deg 35% 49%);
+    color: white;
+    
+}
+.link{
+    color: hsl(121deg 35% 49%);
+}
+.link-sign{
+    text-decoration: initial;
+    color: white;
+}
